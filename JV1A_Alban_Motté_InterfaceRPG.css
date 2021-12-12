@@ -1,0 +1,306 @@
+.name{
+    font-size: 20px;
+    color: white;
+}
+
+.health{
+    font-size: 20px;
+    color : green;
+}
+
+.mana{
+    font-size: 20px;
+    color: dodgerblue;
+	border: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+    height: 100%;
+    width: 50%;
+}
+
+.action_hero{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.titre{
+    position: fixed;
+    top :0;
+    right:0;
+    border: 1px solid rgba(255, 255, 255, 0);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 75%;
+    height: 30%;
+}
+
+.stat{
+    position: fixed;
+    bottom: 0;
+    right: 30px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    width: 75%;
+    height: 30%;
+}
+
+.action{
+    position: absolute;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    height: 10%;
+    width: 5%;
+}
+
+.health{
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+    height: 100%;
+    width: 50%;
+    left : 10px;
+}
+
+.bulle{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    padding: 5px;
+    width: 50px;
+    height: 60px;
+    margin: 10px;
+}
+
+.name{
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 100%;
+    width: 50%;
+}
+
+.titre{
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 6%;
+    width: 10%;
+    color: white;
+}
+
+body {
+    background-image: url("Images/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.image_ennemi_1{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top : 100px;
+    left : 310px;
+}
+
+#info_ennemi_1{
+    display: flex;
+    position : absolute;
+    left: -10px;; 
+    top : 100px; 
+    color: #ce0000; 
+    padding: 5px;
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    border: 2px solid rgb(73, 0, 0);
+    background-color: rgb(0, 0, 0);
+    visibility: hidden;
+}
+
+.image_ennemi_1:hover #info_ennemi_1{
+    visibility: visible;
+}
+
+.image_ennemi_2{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top : 230px;
+    left : 400px;
+}
+
+#info_ennemi_2{
+    display: flex;
+    position : absolute;
+    left : 34px; 
+    top : 164px; 
+    color: #ce0000; 
+    padding: 5px;
+    width: 80px;
+    height: 35px;
+    margin: 10px;
+    border: 2px solid rgb(73, 0, 0);
+    background-color: rgb(0, 0, 0);
+    visibility: hidden;
+}
+
+.image_ennemi_2:hover #info_ennemi_2{
+    visibility: visible;
+}
+
+.image_ennemi_3{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top : 500px;
+    left : 300px;
+}
+
+#info_ennemi_3{
+    display: flex;
+    position : absolute;
+    left : 20px; 
+    top : 120px; 
+    color: #ce0000; 
+    padding: 5px;
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    border: 2px solid rgb(73, 0, 0);
+    background-color: rgb(0, 0, 0);
+    visibility: hidden;
+}
+
+.image_ennemi_3:hover #info_ennemi_3{
+    visibility: visible;
+}
+
+.stat_ennemi_1{
+    visibility:visible ;
+}
+
+.stat_ennemi_2{
+    visibility: hidden;
+}
+
+.stat_ennemi_3{
+    visibility: hidden;
+}
+
+
+.nom_ennemi_1{
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 6%;
+    width: 5%;
+    color: rgb(212, 8, 8);
+}
+
+.pv_ennemi_1{
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 6%;
+    width: 5%;
+    color: rgb(146, 3, 3);
+}
+
+.nom_ennemi_2{
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 6%;
+    width: 5%;
+    color: rgb(212, 8, 8);
+}
+
+.pv_ennemi_2{
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 6%;
+    width: 5%;
+    color: rgb(146, 3, 3);
+}
+
+.nom_ennemi_3{
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 6%;
+    width: 5%;
+    color: rgb(212, 8, 8);
+}
+
+.pv_ennemi_3{
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 6%;
+    width: 5%;
+    color: rgb(146, 3, 3);
+}
+
+.image_hero_1{
+    display: flex;
+    position: fixed;
+    justify-content: right;
+    height: 100px;
+    width: 100px;
+    left : 1870px;
+    top : 70px;
+}
+
+.image_hero_2{
+    display: flex;
+    position: fixed;
+    justify-content: right;
+    height: 100px;
+    width: 100px;
+    left : 1850px;
+    top : 200px;
+}
+
+.image_hero_3{
+    display: flex;
+    position: fixed;
+    justify-content: right;
+    height: 100px;
+    width: 100px;
+    left : 1900px;
+    top : 330px;
+}
+
+.image_hero_4{
+    display: flex;
+    position: fixed;
+    justify-content: right;
+    height: 100px;
+    width: 100px;
+    left : 1880px;
+    top : 460px;
+}
